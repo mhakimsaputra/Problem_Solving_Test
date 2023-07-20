@@ -1,4 +1,5 @@
 # Problem_Solving_Test
+Jawaban Problem test 3 : 
 Kompleksitas kodingan saya adalah O(n), di mana n adalah panjang string input.
 
 Pada kodingan tersebut, terdapat penggunaan stack untuk memeriksa keseimbangan tanda kurung. Setiap karakter dalam string input str akan diperiksa satu per satu. Jika karakter tersebut adalah tanda kurung buka (seperti `(', '{', atau '['), maka akan dimasukkan ke dalam stack. Jika karakter tersebut adalah tanda kurung tutup (seperti ')', '}', atau ']'), maka akan dilakukan pengecekan dengan tanda kurung terakhir yang ada di stack. Jika tanda kurung tutup tersebut sesuai dengan tanda kurung terakhir yang ada di stack, maka tanda kurung terakhir akan dihapus dari stack. Jika tidak sesuai atau stack kosong, maka akan mengembalikan nilai "NO".
